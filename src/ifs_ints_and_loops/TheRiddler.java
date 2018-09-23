@@ -25,8 +25,8 @@ JOptionPane.showMessageDialog(null, "Incorrect.");
 JOptionPane.showMessageDialog(null, "The answer was Man.");
 }
 		// 6. Add some more riddles
-String answer2 = JOptionPane.showInputDialog("Imagine you are in a dark room that has no windows, no door, and you are chained to a chair with no key to unlock yourself. How do you get out?");
-if(answer2.equals("Stop imagining.")) {
+String answer2 = JOptionPane.showInputDialog("Imagine you are in a dark room that has no windows, no door, and you are chained to a chair with no key to unlock yourself. How do you escape?");
+if(answer2.equals("Stop imagining")) {
 	JOptionPane.showMessageDialog(null, "Correct!");
 	score ++;
 }else {
@@ -34,7 +34,7 @@ if(answer2.equals("Stop imagining.")) {
 	JOptionPane.showMessageDialog(null, "The answer was to stop imagining.");
 }
 String answer3 = JOptionPane.showInputDialog("A man builds a house rectangular in shape. All the sides have southern exposure. A big bear walks by. What color is the bear?");
-if(answer3.equals("White.")) {
+if(answer3.equals("White")) {
 	JOptionPane.showMessageDialog(null, "Correct!");
 	score ++;
 }else {

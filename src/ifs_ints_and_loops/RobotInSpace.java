@@ -24,16 +24,16 @@ public class RobotInSpace implements KeyEventDispatcher {
 	private void moveRobot(int keyPressed) throws InterruptedException {
 		// 2. Print out the keyPressed variable and write down the numbers for
 		// each arrow key
-System.out.println(keyPressed);
+  
 		// 3. If the up arrow is pressed, move the Robot up the screen.
 
 		// 4. If the down arrow is pressed, move the Robot down.
 
 		// 5. If the left arrow is pressed, make the Robot go left.
 
-		// 6. If right is pressed, move the Robot right.
+		// 6. If the right arrow is pressed, move the Robot right.
 
-		// 7. Run your program and move the Robot to RD-2D for a surprise!
+		// 7. Run your program and move the Robot to R2-D2 for a surprise!
 	}
 
 	private void checkIfR2D2Found() throws Exception {
